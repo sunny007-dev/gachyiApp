@@ -1,0 +1,21 @@
+.capsules-background {
+    background-image: url(./../../../assets/capsules-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.bannerStyle h1 {
+    background-color: #ccc;
+    min-height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+owl-carousel-o img,
+owl-carousel-o video {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 30px;
+}

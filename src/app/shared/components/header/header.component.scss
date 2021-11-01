@@ -1,0 +1,38 @@
+.menu-button {
+    flex: 1 1 auto;
+}
+
+.menus {
+    flex: 1;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.button-connect {
+    background: linear-gradient( 0deg, #f6bffc -28.38%, #d38bf3 100%);
+    font-size: 14px;
+    height: 35px;
+    min-width: 105px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.header-background {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    a:hover {
+        color: #d9bedd;
+        text-decoration: none;
+    }
+}
+
+.mat-toolbar.mat-primary {
+    background: none;
+    color: #fff;
+    padding: 0px
+}

@@ -1,0 +1,32 @@
+ .gachyi-background {
+     background-image: url(./../../../assets/topbanner.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     .gachyi-content {
+         margin-top: 232px;
+         text-align: center;
+         color: #fff;
+         font-weight: 600;
+         letter-spacing: 2px;
+         position: relative;
+         .first-p {
+             font-size: 44px;
+             line-height: 44px;
+             text-shadow: 0 4px 7px rgb(0 0 0 / 75%);
+         }
+         .second-p {
+             font-size: 88px;
+             line-height: 100px;
+             text-shadow: 0 4px 7px rgb(0 0 0 / 75%);
+         }
+         .button-connect {
+             background: transparent;
+             padding: 0;
+             box-shadow: none;
+             img {
+                 max-width: 200px;
+             }
+         }
+     }
+ }

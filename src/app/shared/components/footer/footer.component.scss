@@ -1,0 +1,35 @@
+.footer-background {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 50px 0;
+    button {
+        img {
+            width: 20px;
+        }
+    }
+    a:hover {
+        color: #d9bedd;
+        text-decoration: none;
+    }
+}
+
+.mat-toolbar {
+    padding: 0px;
+    background: none;
+    color: #fff;
+}
+
+.menu-button {
+    flex: 1 1 auto;
+}
+
+.menus {
+    flex: 1;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.copyright {
+    font-size: 14px;
+}

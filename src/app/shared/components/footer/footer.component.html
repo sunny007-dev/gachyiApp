@@ -1,0 +1,37 @@
+<div class="footer-background">
+    <div class="container">
+        <mat-toolbar color="primary">
+            <span><img class="logoImg" src="./../assets/logo.png"></span>
+
+            <span class="menus"></span>
+            <a mat-button>AboutUs</a>
+            <a mat-button>Team</a>
+            <a mat-button>Gaychi Products</a>
+            <a mat-button>FAQ</a>
+            <a mat-button>Contact Us</a>
+            <span class="menu-button"></span>
+            <button mat-icon-button class="example-icon">
+        <img src="./../../../../assets/twitter-fill2.svg"/>
+      </button>
+            <button mat-icon-button class="example-icon">
+                <img src="./../../../../assets/instagram2.svg"/>
+      </button>
+        </mat-toolbar>
+
+        <mat-toolbar color="primary">
+            <span class="copyright">copyright @ Gachyiland | All Rights Reserved</span>
+
+            <span class="menu-button"></span>
+            <a mat-button>Terms and Condition</a>
+            <a mat-button>Privacy Policy</a>
+            <mat-form-field>
+                <mat-label>Languages</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                        {{food.viewValue}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </mat-toolbar>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+    .getItKnow {
+        background: url(./../../../assets/GachyiPaper-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 8px 30px;
+        border-radius: 23px;
+        .getNowContent {
+            p {
+                font-size: 44px;
+                line-height: 44px;
+                color: #fff;
+            }
+        }
+        .button-connect {
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            img {
+                max-width: 170px;
+            }
+        }
+    }

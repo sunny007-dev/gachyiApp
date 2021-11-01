@@ -1,0 +1,36 @@
+.roadMap {
+    background-image: url(./../../../assets/roadMap-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+owl-carousel-o {
+    img {
+        max-width: 250px;
+        max-height: 250px;
+        min-height: 250px;
+        border: 7px solid #fff;
+        border-radius: 50%;
+        padding: 6px;
+        margin: auto;
+        position: relative;
+    }
+    span {
+        position: absolute;
+        left: 18%;
+        bottom: 0;
+        width: 237px;
+        border-radius: 20px;
+        height: 50px;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        background: #92a7e9;
+        border: 5px solid #ffffff;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

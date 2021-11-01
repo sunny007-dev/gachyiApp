@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col-md-12 text-center my-5">
+        <div class="heading">
+            <h4>Socials</h4>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 mt-3 mb-5">
+        <section>
+            <div class="example-button-row">
+                <div class="example-flex-container">
+                    <div class="example-button-container">
+                        <button mat-fab>
+                    <!-- <mat-icon>twitter</mat-icon> -->
+                    <img src="./../../../assets/twitter.svg">
+                  </button>
+                    </div>
+                    <div class="example-button-container">
+                        <button mat-fab>
+                    <!-- <mat-icon>instagram</mat-icon> -->
+                    <img src="./../../../assets/instagram.svg">
+                  </button>
+                    </div>
+                    <div class="example-button-container">
+                        <button mat-fab color="warn">
+                    <!-- <mat-icon>home</mat-icon> -->
+                    <img src="./../../../assets/s3.svg">
+                  </button>
+                    </div>
+                    <div class="example-button-container">
+                        <button mat-fab disabled>
+                    <!-- <mat-icon>favorite</mat-icon> -->
+                    <img src="./../../../assets/reddit-fill.svg">
+                  </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="row pb-5 mb-5">
+    <div class="col-md-12">
+        <owl-carousel-o class="roadMapCarousel socialCarousel" [options]="customOptions">
+            <ng-template carouselSlide>
+                <img src="./../../../assets/post.png" />
+            </ng-template>
+            <ng-template carouselSlide>
+                <img src="./../../../assets/post.png" />
+            </ng-template>
+            <ng-template carouselSlide>
+                <img src="./../../../assets/post.png" />
+            </ng-template>
+            <ng-template carouselSlide>
+                <img src="./../../../assets/post.png" />
+            </ng-template>
+            <ng-template carouselSlide>
+                <img src="./../../../assets/post.png" />
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</div>

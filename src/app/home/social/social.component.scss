@@ -1,0 +1,28 @@
+.socialCarousel {
+    .carouselSlide {
+        margin-right: 10px;
+    }
+}
+
+owl-carousel-o {
+    img {
+        width: 360px;
+        height: 325px;
+    }
+}
+
+.example-button-row {
+    .example-flex-container {
+        display: flex;
+        justify-content: center;
+        .example-button-container {
+            padding: 0 25px;
+        }
+        button {
+            background-color: transparent;
+            img {
+                width: 55px;
+            }
+        }
+    }
+}
